@@ -1,0 +1,92 @@
+:root {
+  /* fonts */
+  --baseFont: 'Sora', serif;
+  --titleFont: 1.125rem; /*18px*/
+  --bodyFont: 0.875rem; /* 14px */
+  --smallText: 0.75rem; /* 12px */
+  --TagText: 0.625rem; /* 10px */
+
+  /* colors */
+  --buttonBackground: #f2eafd;
+  --buttonText: #7c19ee;
+  --cardBackGround: #ffffff;
+  --titleColor: #20293a;
+  --paragraphText: #394150;
+  --bodyBackground: #fafaf9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bodyBackground);
+  font-family: var(--baseFont);
+}
+
+main {
+  margin-top: 10.25rem;
+}
+
+.body-card-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: var(--cardBackGround);
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 0.8rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+.main-container {
+  margin: 0 1rem 1.25rem 1rem;
+}
+
+#purple-button {
+  padding: 0.375rem 1rem;
+  background-color: var(--buttonBackground);
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  color: var(--buttonText);
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.main-container h1 {
+  font-size: 1.125rem;
+  margin: 1rem 0 0.375rem 0;
+  color: var(--titleColor);
+}
+
+.main-container p {
+  font-size: 0.875rem;
+  color: var(--paragraphText);
+  margin-right: 1rem;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: var(--paragraphText);
+  opacity: 0.1;
+}
+
+.footer-container p {
+  color: var(--paragraphText);
+  margin: 1.25rem 0 1.25rem 1rem;
+  padding-bottom: 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
