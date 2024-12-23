@@ -90,3 +90,16 @@ hr {
   font-size: 0.75rem;
   font-weight: 400;
 }
+
+/* 1024px */
+@media screen and (min-width: 641px) and (max-width: 1279px) {
+  .body-card-container {
+    width: 38%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .body-card-container {
+    width: 30%;
+  }
+}
